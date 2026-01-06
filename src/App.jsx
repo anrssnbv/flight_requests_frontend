@@ -268,13 +268,7 @@ export default function FlightRequestApp() {
                 </button>
               </div>
 
-              <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-100">
-                <p className="font-semibold text-gray-700 mb-2 text-sm">Demo Admin Account:</p>
-                <div className="space-y-1 text-sm text-gray-600">
-                  <p><span className="font-medium">Username:</span> admin</p>
-                  <p><span className="font-medium">Password:</span> admin123</p>
-                </div>
-              </div>
+              
             </div>
           ) : (
             <div className="space-y-5">
