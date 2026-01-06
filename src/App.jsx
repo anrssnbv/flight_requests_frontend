@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Send, CheckCircle, XCircle, Clock, LogOut, Plane, User } from 'lucide-react';
 
-const API_URL = 'https://flight-requests-backend.onrender.com';
+const API_URL = 'https://flight-requests-backend.onrender.com/api';
 
 export default function FlightRequestApp() {
   const [user, setUser] = useState(null);
@@ -97,7 +97,7 @@ export default function FlightRequestApp() {
       }
     } catch (error) {
       console.error('Registration error:', error);
-      alert('Cannot connect to server. Make sure backend is running on http://localhost:5000');
+      alert('Cannot connect to server. Make sure backend is running');
     } finally {
       setLoading(false);
     }
