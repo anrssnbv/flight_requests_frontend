@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Send, CheckCircle, XCircle, Clock, LogOut, Plane, User } from 'lucide-react';
 
-const API_URL = 'https://flight-requests-backend.onrender.com/api';
+const API_URL = 'https://flight-requests-backend.onrender.com';
 
 export default function FlightRequestApp() {
   const [user, setUser] = useState(null);
